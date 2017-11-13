@@ -18,15 +18,15 @@ public class Library {
 	 * Constructs a library with multiple books in the catalog
 	 */
 	public Library() {
-		catalog.add(new Book("Dune", 500, "Fiction", "Frank Herbert"));
+		catalog.add(new Book("Dune", 500, "Fiction", "Frank Herbert", true));
 		
-		catalog.add(new Book("The Wretched of Muirwood (Legends of Muirwood Book 1)", 300, "Fantasy", "Jeff Wheeler"));
+		catalog.add(new Book("The Wretched of Muirwood (Legends of Muirwood Book 1)", 300, "Fantasy", "Jeff Wheeler", true));
 		
-		catalog.add(new Book("The Blight of Muirwood (Legends of Muirwood Book 2)", 466, "Fantasy", "Jeff Wheeler"));
+		catalog.add(new Book("The Blight of Muirwood (Legends of Muirwood Book 2)", 466, "Fantasy", "Jeff Wheeler", true));
 		
-		catalog.add(new Book("Dune Messiah", 340, "Science Fiction", ""));
+		catalog.add(new Book("Dune Messiah", 340, "Science Fiction", "", true));
 		
-		catalog.add(new Book("Children of Dune", 420, "Science Fiction",  ""));
+		catalog.add(new Book("Children of Dune", 420, "Science Fiction",  "", true));
 	}
 	
 	/*
